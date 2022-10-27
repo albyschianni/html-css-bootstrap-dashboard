@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ms-square {
+    min-height: 50px;
+    background-color: antiquewhite;
+    width: 100%;
+}
+.sidebar {
+    background-color: aqua;
+    height: 100vh;
+}
+.main-part {
+    background-color: blueviolet;
+    height: 100vh;
+}
