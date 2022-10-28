@@ -208,11 +208,70 @@
 }
 .intro {
     background-color: #1b72e8;
+    padding-top: 10px;
 }
 .square {
     background-color: #ff8f00;
     min-height: 100px;
 }
+.ms-intro-container-1 {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.ms-intro-container {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.tag-boolean {
+    color: white;
+    text-decoration: none;
+    background-color: #165bba;
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: 13px;
+
+}
+.fa-angles-right {
+    color: white;
+    padding: 0px 5px;
+}
+#boolean-text {
+    font-size: 34px;
+    color: white;
+    margin-right: 10px;
+}
+.margin-student {
+    padding-left: 10px;
+}
+.margin-student-1 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#students {
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+}
+#n-students {
+    color: white;
+    font-size: 30px;
+}
+
+
+.classes {
+    border-bottom: 1px solid black;
+
+}
+.ms-macro-container {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
 
 
 /*********** Desktop version ***********/
@@ -223,5 +282,8 @@
     }
     .sidebar-alt {
         display: block;
+    }
+    .ms-rightcol {
+        width: calc(100% - 140px);
     }
 }
