@@ -117,7 +117,7 @@
 
 /*********** Desktop version ***********/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     .ms-navbar {
         display: none;
     }
@@ -206,23 +206,18 @@
     font-size: 20px;
     
 }
-.bug-square {
-    min-height: 300px;
-    min-width: 200px;
-    background-color: aqua;
-    margin: 20px;
+.intro {
+    background-color: #1b72e8;
 }
-.bug-square2 {
-    min-height: 30px;
-    min-width: 20px;
-    background-color: white;
+.square {
+    background-color: #ff8f00;
+    min-height: 100px;
 }
-
 
 
 /*********** Desktop version ***********/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     .sidebar {
         display: none;
     }
