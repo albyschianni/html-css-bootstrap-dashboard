@@ -2,18 +2,231 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.ms-square {
-    min-height: 50px;
-    background-color: antiquewhite;
+/* HEADER */
+
+.ms-navbar {
+    display: block;
+}
+.container-nav {
+    min-height: 60px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 100;
 }
+.logo {
+    width: 85px;
+    min-height: 60px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-logo {
+    width: 40%;
+}
+.container-search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background: #e5e5e5;
+    border-radius: 6px;
+    padding: 5px;
+}
+.search {
+    width: calc(100% - 145px);
+    min-height: 60px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tag-search {
+    width: 96%;
+    border: none;
+    background-color: #e5e5e5;
+    margin-left: 4px;
+}
+.items-nav {
+    width: 60px;
+    min-height: 60px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-bell {
+    color: #ff8f00;
+}
+
+.ms-navbar-alt {
+    display: none;
+}
+.container-nav-alt {
+    min-height: 60px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.logo-alt {
+    width: 140px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-logo-alt {
+    padding-left: 5px;
+}
+.search-alt {
+    width: calc(100% - 280px);
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-search-alt {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    align-items: center;
+    background: #e5e5e5;
+    border-radius: 6px;
+    padding: 5px
+}
+.items-nav-alt {
+    width: 140px;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+
+/*********** Desktop version ***********/
+
+@media screen and (min-width:768px) {
+    .ms-navbar {
+        display: none;
+    }
+    .ms-navbar-alt {
+        display: block;
+    }
+}
+
+
+/* MAIN */
+
+.section-main {
+    display: flex;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+}
+
+
 .sidebar {
-    background-color: aqua;
-    height: 100vh;
+    display: block;
 }
-.main-part {
-    background-color: blueviolet;
-    height: 100vh;
+.ms-leftcol {
+    width: 80px;
+    height: 100%;
+    background-color: #051e34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.upper-item {
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-house, .fa-chart-simple, .fa-signal {
+    color: white;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+
+
+.sidebar-alt {
+    display: none;
+}
+.ms-leftcol-alt {
+    width: 140px;
+    height: 100%;
+    background-color: #051e34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.upper-item-alt {
+    text-align: center;
+    margin-top: 20px;
+}
+.text-item-alt {
+    color: white;
+    font-size: 14px;
+    padding-left: 7px;
+}
+#padding-signal {
+    padding-left: 8px;
+}
+#padding-chart {
+    padding-right: 3px;
+}
+
+
+
+
+.ms-rightcol {
+    width: calc(100% - 80px);
+    height: 100%;
+    background-color: brown;
+    overflow: scroll;
+}
+.down-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fa-gear {
+    color: white;
+    font-size: 20px;
+    
+}
+.bug-square {
+    min-height: 300px;
+    min-width: 200px;
+    background-color: aqua;
+    margin: 20px;
+}
+.bug-square2 {
+    min-height: 30px;
+    min-width: 20px;
+    background-color: white;
+}
+
+
+
+/*********** Desktop version ***********/
+
+@media screen and (min-width:768px) {
+    .sidebar {
+        display: none;
+    }
+    .sidebar-alt {
+        display: block;
+    }
 }

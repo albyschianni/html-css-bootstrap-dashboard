@@ -13,41 +13,104 @@
 
     <header>
         <!-- SECTION NAVBAR -->
-        <section class="ms-navbar fixed-top">
-            <div class="container-fluid">
-                <div class="row ">
-                    <div class=" px-0 col-1 col-md-2">
-                        <div class="ms-square">
-                            <img src="img/Logo.png" alt="">
-                        </div>
+        <section class="ms-navbar">
+           <div class="container-nav">
+                <div class="logo">
+                    <img id="img-logo" src="img/Logo.png" alt="">
+                </div>
+                <div class="search">
+                    <div class="container-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="tag-search" type="search" id="" placeholder=" Prova a cercare: Lezioni di Laravel">
                     </div>
-                    <div class="px-0 col-10 col-md-8">
-                        <div class="ms-square">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        </div>
+                    
+                </div>
+                <div class="items-nav">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+           </div>
+        </section>
+        <section class="ms-navbar-alt">
+            <div class="container-nav-alt">
+                <div class="logo-alt">
+                    <img id="img-logo-alt" src="img/logo.svg" alt="">
+                </div>
+                <div class="search-alt">
+                    <div class="container-search-alt">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="tag-search" type="search" id="" placeholder=" Prova a cercare: Lezioni di Laravel">
                     </div>
-                    <div class="px-0 col-1 col-md-2">
-                        <div class="ms-square">
-                            <i class="fa-solid fa-bell"></i>
-                        </div>
-                    </div>
+                    
+                </div>
+                <div class="items-nav-alt">
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-circle-question"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <i class="fa-solid fa-bell"></i>
                 </div>
             </div>
         </section>
+           
+
+        
     </header>
 
     <main>
         <!-- CONTAINER MAIN -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="px-0 col-1 col-lg-2">
-                    <div class="sidebar"></div>
-                </div>
-                <div class="px-0 col-11 col-lg-10">
-                    <div class="main-part"></div>
+        <section class="section-main">
+           
+            <div class="sidebar">
+                <div class="ms-leftcol">
+                    <div class="upper-item">
+                        <div>
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-signal"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="down-item">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="sidebar-alt">
+                <div class="ms-leftcol-alt">
+                    <div class="upper-item-alt">
+                        <div>
+                            <i class="fa-solid fa-house"></i> 
+                            <span class="text-item-alt">Home</span> 
+                        </div>
+                        <div>
+                            <i id="padding-chart" class="fa-solid fa-chart-simple"></i> <span class="text-item-alt">Stats</span> 
+                        </div>
+                        <div>
+                            <i id="padding-signal" class="fa-solid fa-signal"></i> 
+                            <span class="text-item-alt">Signals</span> 
+                        </div>
+                    </div>
+                    
+                    <div class="down-item">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="text-item-alt">Admin</span>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="ms-rightcol">
+                <div class="bug-square"></div>
+                <div class="bug-square"></div>
+                <div class="bug-square"></div>
+                <div class="bug-square"></div>
+            </div>
+
+        </section>
+       
     </main>
 
     <footer>
