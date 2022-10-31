@@ -337,7 +337,9 @@ hr {
     align-items: center;
 }
 
-
+.container-fluid {
+    padding-bottom: 50px;
+}
 
 /*********** Desktop version ***********/
 
