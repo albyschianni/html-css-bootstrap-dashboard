@@ -341,7 +341,7 @@
     color: white;
     background-color: #2a7af7;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 4px 8px;
     border-radius: 5px;
     margin-top: 10px;
 }
@@ -349,13 +349,20 @@
     color: black;
     background-color: #fdc847;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 4px 8px;
     border-radius: 5px;
     margin-top: 10px;
 }
 .ms-container-tag {
     display: flex;
     width: 50px;
+    margin-top: 10px;
+}
+#margin-tagsalva {
+    margin-right: 5px;
+}
+.magin-h-classe {
+    margin: 5px 0;
 }
 /* .hover-table:hover {
     background-color: #eeeff0;
