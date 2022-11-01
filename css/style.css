@@ -158,6 +158,19 @@
     font-size: 20px;
     padding: 8px 0;
 }
+.fa-house:hover {
+    background-color: #637380;
+}
+.fa-chart-simple:hover {
+    background-color: #637380;
+}
+.fa-signal:hover {
+    background-color: #637380;
+}
+.fa-gear:hover {
+    background-color: #637380;
+}
+
 
 
 
@@ -188,12 +201,14 @@
 #padding-chart {
     padding-right: 3px;
 }
-
-
-
+.hover-leftbar:hover {
+    background-color: #637380;
+    /* filter: opacity(0.8); */
+}
 
 .ms-rightcol {
-    width: calc(100% - 80px);
+    /* width: calc(100% - 80px); */
+    flex-grow: 1;
     height: 100%;
     background-color: #f8f9fa;
     overflow: scroll;
@@ -234,7 +249,21 @@
     border-radius: 10px;
     padding: 2px 6px;
     font-size: 13px;
-
+}
+.tag-boolean:hover {
+    background-color: #1d539c;
+    color: white;
+}
+.tag-lgversion {
+    display: none;
+}
+.tag-small {
+    display: block;
+}
+.fa-square-plus:hover {
+    background-color: #3280f9;
+    color: white;
+    padding: 2px;
 }
 .fa-angles-right {
     color: white;
@@ -261,7 +290,15 @@
     color: white;
     font-size: 30px;
 }
-
+.hover-azioni:hover {
+    background-color: #7a7d84;
+}
+.fa-trash:hover {
+    color: white;
+}
+.fa-pencil:hover {
+    color: white;
+}
 
 .classes {
     border-bottom: 1px solid #cccccc;
@@ -272,7 +309,9 @@
     padding: 5px 10px;
     font-size: 28px;
 }
-
+.hover-table:hover {
+    background-color: #eeeff0;
+}
 .fa-square-plus {
     color: #0d6efd;
     font-size: 34px;
@@ -295,6 +334,20 @@
 .done {
     color: white;
     background-color: #198754;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 2px 5px;
+}
+.process {
+    color: white;
+    background-color: #ffc107;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 2px 5px;
+}
+.failed {
+    color: white;
+    background-color: #dc3545;
     text-decoration: none;
     border-radius: 8px;
     padding: 2px 5px;
@@ -340,7 +393,9 @@ hr {
 .container-fluid {
     padding-bottom: 50px;
 }
-
+.text-todo {
+    font-size: 12px;
+}
 /*********** Desktop version ***********/
 
 @media screen and (min-width:992px) {
@@ -352,5 +407,12 @@ hr {
     }
     .ms-rightcol {
         width: calc(100% - 140px);
+    }
+    .tag-lgversion {
+        display: block;
+        margin-right: 5px;
+    }
+    .tag-small {
+        display: none;
     }
 }
