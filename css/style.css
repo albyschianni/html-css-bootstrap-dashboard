@@ -69,9 +69,16 @@
 }
 .fa-bell {
     color: #ff8f00;
-    position: absolute;
-    top: 9px;
-    right: 9px;
+}
+.nav-item, .dropdown {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.bel-drop {
+    text-decoration: none;
 }
 .dropdown-toggle {
     border: none;
